@@ -289,6 +289,7 @@ define([
                         this.sourceObject.set(this.objreference, this.currentValue = guid);
                         this.ignoreChange = false;
                         this.executeMF(this.onchangemf);
+                        this._clearValidations();
                     }
                 }));
             }
